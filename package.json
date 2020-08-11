@@ -1,0 +1,22 @@
+{
+  "name": "parameswar",
+  "version": "1.0.0",
+  "description": "my first npm library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parameswar-mondal/parameswar.git"
+  },
+  "keywords": [
+    "parameswar"
+  ],
+  "author": "Parameswar Mondal (param23.03@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parameswar-mondal/parameswar/issues"
+  },
+  "homepage": "https://github.com/parameswar-mondal/parameswar#readme"
+}
