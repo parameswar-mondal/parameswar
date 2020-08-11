@@ -11,6 +11,8 @@ Then...
 ```
 import parameswar from 'parameswar';
 
-console.log(parameswar);
+const aboutLibrary = parameswar.aboutLibrary();
+
+console.log(aboutLibrary);
 ```
 
