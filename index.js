@@ -3,4 +3,6 @@ function aboutLibrary() {
     return aboutMe;
 }
 
-module.exports.parameswar = aboutLibrary;
+module.exports = {
+    aboutLibrary: aboutLibrary
+}

@@ -9,10 +9,11 @@ Now it's using for test. It's my first npm library, I hope it'll be a different 
 Then...
 
 ```
-import parameswar from 'parameswar';
+const { aboutLibrary } = require('parameswar');
 
-const aboutLibrary = parameswar.aboutLibrary();
+const aboutLib = aboutLibrary();
 
-console.log(aboutLibrary);
+console.log(aboutLib);
+
 ```
 
