@@ -4,5 +4,6 @@ function aboutLibrary() {
 }
 
 module.exports = {
-    aboutLibrary
+    aboutLibrary,
+    calculations: require('./calculations')
 }
