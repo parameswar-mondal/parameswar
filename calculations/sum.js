@@ -1,7 +1,20 @@
 'use strict';
 
-let sum = (a) => (b) => (b) ? sum(a+b) : a;
+/* extends calculations.sum */
+class sum {
+    constructor(obj = {}) {
+        this.getSum;
+    }
 
-module.exports = {
-    sum
-};
+    getSum = function (a) {
+        return function (b) {
+            if (b) {
+                return getSum(a + b);
+            }
+            return a;
+        }
+    }
+
+}
+
+module.exports = sum;
