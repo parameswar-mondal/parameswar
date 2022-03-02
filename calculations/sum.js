@@ -6,7 +6,15 @@ class sum {
         this.obj = obj;
     }
 
-    getSum = (a) => (b) => (b) ? getSum(a+b) : a;
+    getSum = function (a) {
+        let reference = this;
+        return function (b) {
+            if (b) {
+                return reference.getSum(a + b);
+            }
+            return a;
+        }
+    }
 
 }
 
