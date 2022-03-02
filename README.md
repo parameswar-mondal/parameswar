@@ -1,6 +1,6 @@
 # What is this?
 
-Now it's using for test. It's my first npm library, I hope it'll be a different library. But now it's use for testing.
+This npm library can be used to make the calculation easy. It has differents kind of calculations, like "sum of n numbers" and etc.
 
 # Installation 
 
@@ -9,11 +9,14 @@ Now it's using for test. It's my first npm library, I hope it'll be a different 
 Then...
 
 ```
-const { aboutLibrary } = require('parameswar');
+const { calculations } = require('parameswar');
+const { sum } = calculations;
 
-const aboutLib = aboutLibrary();
+const sumObj = new sum();
 
-console.log(aboutLib);
+// sum(1)(2)(3)(4)..( n)()
+const result = sumObj.getSum(1)(2)(5)();
+console.log('result ', result);
 
 ```
 
