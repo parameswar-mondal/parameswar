@@ -3,17 +3,10 @@
 /* extends calculations.sum */
 class sum {
     constructor(obj = {}) {
-        this.getSum;
+        this.obj = obj;
     }
 
-    getSum = function (a) {
-        return function (b) {
-            if (b) {
-                return getSum(a + b);
-            }
-            return a;
-        }
-    }
+    getSum = (a) => (b) => (b) ? getSum(a+b) : a;
 
 }
 
